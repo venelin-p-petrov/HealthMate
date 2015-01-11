@@ -1,0 +1,12 @@
+﻿@model IEnumerable<HealthMate.Model.Symptom>
+
+<ul data-role="listview" data-inset="true">
+
+    @foreach (var item in Model)
+    {
+        <li data-role="fieldcontain">
+            @Html.ActionLink(item.Name, "RecommendDoctors", new { symptomId = item.ID })
+        </li>
+    }
+
+</ul>

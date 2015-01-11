@@ -1,0 +1,21 @@
+﻿@model IEnumerable<HealthMate.Model.Doctor>
+
+@{
+    ViewBag.Title = "Doctors";
+}
+
+@section Header {
+    @Html.ActionLink("Back", "Index", "Home", null, new { data_icon = "arrow-l", data_rel = "back" })
+    <h1>@ViewBag.Title</h1>
+}
+
+<ul data-role="listview" data-inset="true">
+
+    @foreach (var doctor in Model)
+    {
+        <li data-role="fieldcontain">
+            @Html.ActionLink(doctor.Name, "ViewDoctor", new { doctorId = doctor.ID })
+        </li>
+    }
+
+</ul>

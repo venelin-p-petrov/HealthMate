@@ -1,0 +1,27 @@
+﻿@model Dictionary<string, Dictionary<string, int>>
+
+@{
+    ViewBag.Title = "Schedule";
+}
+
+@section Header {
+    @Html.ActionLink("Back", "Index", "Home", null, new { data_icon = "arrow-l", data_rel = "back" })
+    <h1>@ViewBag.Title</h1>
+}
+
+@if (Model != null)
+{
+    <ul data-role="listview" data-inset="true">
+        @foreach (var date in Model)
+        {
+            <li data-role="list-divider">@date.Key</li>
+            
+            foreach (var time in date.Value)
+            {
+            <li>@Html.ActionLink(time.Key, "ReserveAppointment", 
+            new { hour = time.Key, day = date.Key, doctorId = ViewBag.DoctorId }, 
+            new { @class = (time.Value == 0 ? "" : "ui-state-disabled") })</li>
+            }
+        }
+    </ul>
+}

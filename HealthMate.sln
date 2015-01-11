@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthMate", "HealthMate\HealthMate.csproj", "{CF26B91F-829C-4921-BDA8-29351E9B90DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthMate.Model", "HealthMate.Model\HealthMate.Model.csproj", "{92493C35-2AF5-4DB0-BD14-2517627F2C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthMate.Service", "HealthMate.Service\HealthMate.Service.csproj", "{8AC501DC-34A3-4C61-9DB9-A411163FECCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF26B91F-829C-4921-BDA8-29351E9B90DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF26B91F-829C-4921-BDA8-29351E9B90DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF26B91F-829C-4921-BDA8-29351E9B90DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF26B91F-829C-4921-BDA8-29351E9B90DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92493C35-2AF5-4DB0-BD14-2517627F2C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92493C35-2AF5-4DB0-BD14-2517627F2C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92493C35-2AF5-4DB0-BD14-2517627F2C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92493C35-2AF5-4DB0-BD14-2517627F2C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC501DC-34A3-4C61-9DB9-A411163FECCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC501DC-34A3-4C61-9DB9-A411163FECCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC501DC-34A3-4C61-9DB9-A411163FECCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC501DC-34A3-4C61-9DB9-A411163FECCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

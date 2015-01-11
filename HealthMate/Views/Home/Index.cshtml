@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Health Mate";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    You can start by choosing an option from below.
+</p>
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Navigation</li>
+    <li>@Html.ActionLink("Search", "Search", "Home")</li>
+    <li>@Html.ActionLink("About", "About", "Home")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+</ul>

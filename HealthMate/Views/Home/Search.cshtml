@@ -1,0 +1,22 @@
+﻿@model IEnumerable<HealthMate.Model.Symptom>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+@section Header {
+    @Html.ActionLink("Cancel", "Index", "Home", null, new { data_icon = "arrow-l" })
+    <h1>@ViewBag.Title</h1>
+}
+
+@using (Html.BeginForm("Search", "Home", FormMethod.Get))
+{
+    <div data-role="fieldcontain">
+        @Html.TextBox("q", null)
+        <input id="submit" type="submit" value="Search" />
+    </div>
+}
+@Html.ValidationSummary()
+<div id="searchResults">
+    @Html.Partial("SearchResultsPartial", Model)
+</div>
