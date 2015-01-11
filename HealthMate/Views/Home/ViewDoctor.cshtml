@@ -1,0 +1,28 @@
+﻿@model HealthMate.Model.Doctor
+
+@{
+    ViewBag.Title = "Doctor";
+}
+
+@section Header {
+    @Html.ActionLink("Back", "Index", "Home", null, new { data_icon = "arrow-l", data_rel = "back" })
+    <h1>@ViewBag.Title</h1>
+}
+
+@if (Model != null)
+{
+    <h3 class="ui-bar ui-bar-a ui-corner-all">Doctor info</h3>
+        
+    <div class="ui-body ui-grid-a" data-role="fieldcontain">
+        <div class="ui-block-a">
+            @Html.LabelFor(m => m.Name)
+        </div>
+        <div class="ui-block-b">
+            @Html.DisplayFor(m => m.Name)
+        </div>
+    </div>
+    
+    @Html.ActionLink("Schedule appointment", "Schedule", new { doctorId = Model.ID }, new { @class = "ui-btn ui-corner-all ui-shadow" });
+    
+    @Html.ValidationSummary()
+}

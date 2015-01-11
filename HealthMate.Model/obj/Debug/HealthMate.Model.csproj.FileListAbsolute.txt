@@ -1,0 +1,8 @@
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\bin\Debug\HealthMate.Model.dll.config
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\bin\Debug\HealthMate.Model.dll
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\bin\Debug\HealthMate.Model.pdb
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\bin\Debug\EntityFramework.dll
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\bin\Debug\EntityFramework.xml
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\obj\Debug\HealthMate.Model.dll
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\obj\Debug\HealthMate.Model.pdb
+C:\Users\venel_000\Desktop\HealthMate\HealthMate.Model\obj\Debug\HealthMate.Model.csprojResolveAssemblyReference.cache
